@@ -2,4 +2,5 @@ from django.shortcuts import render
 
 
 def homepage(request):
-    return render(request, 'pages/index.html')
+    template_name = 'pages/index.html'
+    return render(request, template_name)
