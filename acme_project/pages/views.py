@@ -1,7 +1,7 @@
 from typing import Any
-from django.views.generic import TemplateView
 
 from birthday.models import Birthday
+from django.views.generic import TemplateView
 
 
 class HomePage(TemplateView):
